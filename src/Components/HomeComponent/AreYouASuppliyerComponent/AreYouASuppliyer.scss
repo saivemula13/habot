@@ -1,0 +1,56 @@
+.banner-section {
+    color: var(--color-white);
+
+    // .bg-img {
+    //     z-index: 0;
+    // }
+
+    .container-div {
+        z-index: 1;
+        position: relative;
+
+        h1 {
+            font-size: var(--clamp55);
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: var(--clamp55);
+            font-weight: 400;
+        }
+
+        p {
+            font-size: var(--clamp18);
+            font-weight: 700;
+            color: var(--color-white);
+            a{
+                font-weight: 400;
+                color: var(--color-white);
+            }
+        }
+
+        input {
+            font-size: var(--clamp16);
+            color: #806b7b;
+
+            &::placeholder {
+                font-size: var(--clamp16);
+                color: #806b7b;
+            }
+
+            @media (min-width:992px) {
+                min-width: 310px;
+            }
+        }
+
+        button {
+            background-color: var(--color-green);
+            color: var(--color-white);
+            font-weight: 700;
+            font-size: var(--clamp16);
+            border-radius: 5px;
+            border: 0;
+        }
+    }
+
+}

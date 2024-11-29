@@ -1,0 +1,20 @@
+.how-it-work {
+    h1{
+        font-size: var(--clamp28);
+        font-weight: 700;
+        color: #222222;
+    }
+    p{
+        font-size: var(--clamp18);
+        font-weight: 400;
+    }
+    .card-div {
+        p{
+            font-size: var(--clamp20);
+            font-weight: 500;
+        }
+        &:nth-child(even) {
+            background-color: var(--color-light-blue)
+        }
+    }
+}

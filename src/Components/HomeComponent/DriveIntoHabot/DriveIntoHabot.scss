@@ -1,0 +1,45 @@
+.dive-into-habot {
+    h1 {
+        font-size: var(--clamp38);
+        font-weight: 700;
+
+        span {
+            color: #271555;
+        }
+    }
+
+    p {
+        font-size: var(--clamp18);
+        font-weight: 300;
+    }
+
+    button {
+        background-color: var(--color-green);
+        color: var(--color-white);
+        font-size: var(--clamp18);
+        font-weight: 700;
+        border-radius: 5px;
+    }
+
+    .country-btns {
+
+        button {
+            background-color: var(--color-white);
+            color: #3E3E3E;
+            font-size: var(--clamp18);
+            font-weight: 500;
+            border-radius: 5px;
+            border: 1px solid var(--color-border);
+            transition: all 0.5s ease-in-out;
+            width: 100%;
+            @media (min-width:768px) {
+                width: calc(100% / 2 - 16px);
+            }
+
+            &:hover {
+                background-color: var(--color-border);
+                color: var(--color-white);
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+footer{
+    background-color: #123557;
+    color: var(--color-white);
+    h5{
+        font-size: var(--clamp16);
+        font-weight: 700;
+    }
+    .logo-div{
+        h5{
+            font-weight: 300;
+        }
+    }
+    a{
+        font-size: var(--clamp14);
+        font-weight: 300;
+        color: var(--color-white);
+        display: block;
+        text-decoration: unset;
+    }
+}
